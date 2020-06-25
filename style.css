@@ -151,7 +151,7 @@ body{
     font-weight: bold;
     color: white;
     position: relative;
-    display: inline-block;
+ 
 
 }
   
@@ -163,6 +163,7 @@ body{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     right: 0;
+    top:100px;
     z-index: 9;
   }
   
@@ -177,6 +178,8 @@ body{
 #special{
     display: none;
 }
+
+
 
 #dropdownbox img{
     height:40px;
