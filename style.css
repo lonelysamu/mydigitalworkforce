@@ -37,30 +37,36 @@ body{
     width: 100px;
 }
 #footitem1{
-    width:50%;
+    width:80%;
     height: auto;
     flex-direction: column;   
+    align-items: center;
+    justify-content: flex-start;
+
 }
 
 #footitem2{
     width:100%;
     height: 100px;
-    flex-direction: row;
+    display: flex;
     justify-content: flex-end;
   
 }
 
 .linkcontainer{
+
     width: 100%;
-    height: 100px;
+    height: auto;
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
+    flex-wrap: wrap;
 
 }
 
 .linkitem{
     width: auto;
-    height: 100px;
+    height: auto;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -78,9 +84,10 @@ body{
 }
 #footitem3{
     width:100%;
-    height: 300px;
+    height: auto;
     justify-content: flex-end;
     align-items: flex-start;
+    font-size: 10px;
 }
 
 #body{
@@ -374,5 +381,20 @@ body{
     }
 
 
+}
+
+@media (max-width:500px){
+    #footitem1{
+
+        justify-content: flex-end;
+
+    
+    }
+    #footitem2{
+        justify-content: center;
+        
+    
+    }
+    
 }
 
