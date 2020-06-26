@@ -19,7 +19,6 @@ body{
 
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
 }
 
 #footitem{
@@ -36,7 +35,6 @@ body{
 
 .specialclass{
     display: flex;
-    border: 1px solid white;
 }
 
 #footitem img{
