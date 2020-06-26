@@ -451,11 +451,17 @@ body{
     #footitem2{
         justify-content: center;
         height:auto;
+        align-items: flex-end;
         
     }
 
     #foot{
         justify-content: center;
+        align-items: flex-end;
+        
+    }
+    #footitem{
+        height:auto;
         
     }
 
